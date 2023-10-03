@@ -11,7 +11,6 @@ curl -X POST https://api.juspay.in/txns \
 -d "card_security_code=111" \
 -d "save_to_locker=true" \
 -d "redirect_after_payment=true" \
--d "initiate_source_payment=true"
 -d "format=json"
 
 // A Stored card transaction
