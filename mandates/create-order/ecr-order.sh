@@ -1,4 +1,4 @@
-curl --location --request POST 'https://sandbox.juspay.in/session' \
+curl --location --request POST 'https://api.juspay.in/session' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic base_64_encoded_api_key==' \
 --header 'version: 2023-08-01' \
@@ -12,7 +12,6 @@ curl --location --request POST 'https://sandbox.juspay.in/session' \
   "first_name":"Sim",
   "action": "paymentPage",
   "return_url": "https://juspay.in/",
-  "gateway_id": "12",
   "order_type" : "TPV_PAYMENT",
   "options.create_mandate" : "REQUIRED",
   "metadata.bank_account_details" : "[{\"bank_account_number\":\"83748239234872\",\"bank_ifsc\":\"AABC0876543\", \"juspay_bank_code\" : \"500007\", \"bank_beneficiary_name\" : \"Abc\"}]",
