@@ -1,7 +1,6 @@
 curl --location 'https://api.juspay.in/txns' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Authorization: Basic xxx==' \
---data-urlencode 'order_id=de83e2f6-fa65-44b2-91f2-9af8bbbcc06b' \
 --data-urlencode 'merchant_id=azharamin' \
 --data-urlencode 'payment_method_type=WALLET' \
 --data-urlencode 'payment_method=GOPAY' \
