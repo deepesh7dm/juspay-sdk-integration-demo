@@ -60,7 +60,6 @@
         @"lastName": @"wick",
         @"action": @"paymentPage",
         @"customerId": @"testing-customer-one",
-        @"returnUrl": @"https://shop.merchant.com",
         @"currency": @"INR",
         @"firstName": @"John",
         @"customerPhone": @"9876543210",
